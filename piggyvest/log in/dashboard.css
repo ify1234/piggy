@@ -1,0 +1,99 @@
+body {
+    overflow-y: scroll;
+    height: 900px;
+    padding-right: 20px;
+    margin-left: 0px;
+    margin-top: 0px;
+
+}
+html{
+        font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+        line-height: 1.5;
+}
+.second {
+    width: 900px;
+    height: 300px;
+    overflow-x: scroll;
+    text-emphasis: none;
+    float: right;
+    margin-top: 50px;
+    overflow-y: hidden;
+
+}
+.first {
+    background-color: rgba(0,0,255,0.1);
+    width: 270px;
+    height: 700px;
+    position: fixed;
+}
+ul a {
+    text-decoration: none;
+
+}
+ul{
+    list-style: none;
+}
+#quick{
+    background-color: #144499;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    color: white;
+    border-radius: 4px;
+    
+}
+h1{
+    border: 0px;
+    outline: 0px;
+    line-height: 0px;
+}
+#flex{
+      color: magenta;
+      width: 250px;
+      height: 140px;
+      border-radius: 6px;
+      float: right;
+      background: whitesmoke;
+      clear: both;
+      text-align: center;
+      margin: 10px;
+     
+      
+}
+#dollar{
+    color: white;
+    width: 250px;
+    height: 140px;
+    border-radius: 6px;
+    float: right;
+    text-align: center;
+    margin: 10px;
+    background:wheat;
+    
+}
+#save{
+    color: white;
+    width: 250px;
+    height: 140px;
+    border-radius: 6px;
+    float: right;
+    text-align: center;
+    margin: 10px;
+    background:purple;
+}
+#invest{
+    color: white;
+    width: 250px;
+    height: 140px;
+    border-radius: 6px;
+    float: right;
+    text-align: center;
+    margin: 10px;
+    background: blue;
+}
+.boxes{
+    display: flex;
+    flex-direction: row-reverse;
+}
+    
+    
